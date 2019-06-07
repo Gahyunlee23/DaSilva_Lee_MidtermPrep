@@ -1,0 +1,176 @@
+.hidden { display: none }
+
+main {
+    width: 1280px;
+	padding: 0 10px;
+	margin: 0 auto;
+	border: thin dashed #333;
+}
+
+.main-header {
+    display: flex;
+	flex-direction: row;
+}
+
+#main-logo{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #555434;
+}
+
+#main-nav {
+    width: 910px;
+    height: 60px;
+    background-color: #555434;
+    margin-left: 320px;
+}
+
+#current-event {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-cevent {
+    width: 800px;
+    height: 400px;
+    margin-left: 240px;
+    background-color: #975add;
+}
+
+#second-cevent {
+    width: 800px;
+    height: 200px;
+    margin: 20px 0 0 240px;
+    background-color: #975add;
+}
+
+.past-eventF {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#pevent-one {
+    width: 600px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 10px;
+    background-color: #f0aeae;
+}
+
+#pevent-two {
+    width: 600px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #f0aeae;
+}
+
+.past-eventS {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#pevent-three {
+    width: 600px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 10px;
+    background-color: #75687a;
+}
+
+#pevent-four {
+    width: 600px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #75687a;
+}
+
+.past-eventT {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#pevent-five {
+    width: 600px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 10px;
+    background-color: #3a5445;
+}
+
+#pevent-six {
+    width: 600px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #3a5445
+}
+
+.past-eventF {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#pevent-seven {
+    width: 600px;
+    height: 200px;
+    margin-left: 25px;
+    margin-right: 10px;
+    background-color: #e0b1cf;
+}
+
+#pevent-eight {
+    width: 600px;
+    height: 200px;
+    margin-left: 10px;
+    background-color: #e0b1cf;
+}
+
+#main-footer {
+    width: 1280px;
+    height: 230px;
+    margin-top: 160px;
+}
+
+.footer-upper {
+    display: flex;
+    flex-direction: row;
+}
+
+#footer-logo {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+    background-color: #c7d6dc;
+}
+
+#footer-nav {
+    width: 910px;
+    height: 70px;
+    margin-left: 150px;
+    background-color: #251e40;
+}
+
+.footer-below {
+    display : flex;
+    flex-direction: row;
+    margin-left: 285px;
+}
+
+#address {
+    width: 800px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #442916;
+}
+
+#social-bar {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background-color: #0ff1d9;
+}
