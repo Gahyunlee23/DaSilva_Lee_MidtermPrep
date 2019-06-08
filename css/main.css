@@ -174,3 +174,317 @@ main {
     margin-left: 30px;
     background-color: #0ff1d9;
 }
+
+/*Home Section*/
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.welcomeText{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width:460px;
+  height:40px;
+  background-color: RED;
+}
+
+#imgBG{
+  margin-bottom: 50px;
+  background-color: purple;
+  width:1100px;
+  height:640px;
+}
+
+.businessBox{
+  margin-top:100px;
+  background-color: blue;
+  width: 1100px;
+  height: 200px;
+}
+
+#about{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.aboutTitle{
+  margin-bottom: 30px;
+  background-color: pink;
+  width:800px;
+  height: 75px;
+}
+
+.aboutSub{
+  margin-bottom: 50px;
+  background-color: green;
+  width: 700px;
+  height: 60px;
+}
+
+#iconsUp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:1000px;
+  margin-bottom: 150px;
+}
+
+.icon{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height:250px;
+}
+
+#iconsDown{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:1000px;
+}
+
+.imageText{
+  width:165px;
+  height: 100px;
+  background-color: brown;
+
+}
+
+.image{
+  background-color: lightgreen;
+  width:100px;
+  height: 100px;
+}
+
+#button{
+  margin-bottom: 50px;
+  align-self: flex-end;
+  width:300px;
+  height: 50px;
+  background-color: lightblue;
+}
+
+#newsSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.NewsTitle{
+  margin-bottom: 40px;
+  height:50px;
+  width:500px;
+  background-color: purple;
+}
+
+.eventWrapper{
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.paragraph{
+  width: 400px;
+  height:400px;
+  background-color: orange;
+}
+
+.newsImage{
+  width: 400px;
+  height: 200px;
+  background-color: blue;
+}
+
+.imageTitle{
+  width:400px;
+  height: 30px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: purple;
+}
+
+.supportingBus{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.supportTitle {
+  margin-bottom: 20px;
+  width: 800px;
+  height: 35px;
+  background-color: olive;
+
+}
+
+.supportSub{
+  margin-bottom: 55px;
+  background-color: yellow;
+  width: 900px;
+  height: 30px;
+}
+
+.business{
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.companyBoxUp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:1035px;
+  margin-bottom: 100px;
+}
+
+.companyBoxDown{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width:1035px;
+}
+
+.box{
+  width: 275px;
+  height: 500px;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxImg{
+  margin-top: 10px;
+  width:200px;
+  height:80px;
+  margin-bottom: 10px;
+  background-color: lightgreen;
+}
+
+.boxText{
+  width: 215px;
+  height: 340px;
+  background-color: lightblue;
+}
+
+.creditBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+    padding-left: 40px;
+    width: 930px;
+    height: 320px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #637333;
+  }
+
+  .creditsTitle{
+    width: 150px;
+    height: 30px;
+    background-color: purple;
+
+  }
+
+  #personN1{
+    background-color: blue;
+    width:150px;
+    height: 60px;
+    margin-right: 130px;
+  }
+
+  #personN2{
+    background-color: blue;
+    width:195px;
+    height:60px;
+  }
+
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.secondRow{
+    width: 860px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#personN3{
+  width:215px;
+  height: 60px;
+  margin-right: 60px;
+  background-color: blue;
+}
+
+#personN4{
+  margin-right: 130px;
+  background-color: blue;
+  width: 185px;
+  height:60px;
+}
+
+#personN5{
+  background-color: blue;
+  width:195px;
+  height: 60px;
+}
+
+.creditsTitle2{
+  background-color: purple;
+  width: 330px;
+  height:60px;
+}
+
+#volunteer1{
+  background-color: blue;
+  width: 266px;
+  height: 60px;
+
+  margin-right: 100px;
+}
+
+#volunteer2{
+  background-color: blue;
+  width:160px;
+  height: 60px;
+  margin-right: 100px;
+}
+
+#volunteer3{
+  width:215px;
+  height:120px;
+  background-color: blue;
+}
+
+#volunteer4{
+  width:215px;
+  height:120px;
+  background-color: blue;
+  margin-right: 150px;
+}
+
+#volunteer5{
+  width: 305px;
+  height:120px;
+  background-color: blue;
+}
